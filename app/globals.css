@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html {
+  --line-color: #e5e7eb;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.234) !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.borderBlack {
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+html.dark body {
+  background-color: #111827;
+  color: #f9fafb;
+  opacity: 0.9;
+}
+
+html.dark .background1 {
+  background-color: #946263;
+}
+html.dark .background2 {
+  background-color: #676394;
+}
+
+html.dark .theme-button {
+  background-color: #120d03 !important;
+  border: 1px solid rgba(255, 255, 255, 0.356) !important;
+}
+
+html.dark .header {
+  background-color: #030712;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+html.dark .header-link {
+  color: #6b7280;
+}
+
+html.dark .header-link:hover {
+  color: #d1d5db !important;
+}
+
+html.dark .header-active-text {
+  color: #e5e7eb;
+}
+
+html.dark .header-active-background {
+  background-color: #1f2937;
+}
+
+html.dark .btn-downloadCV {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+
+html.dark .btn-downloadCV:hover {
+  background-color: rgba(255, 255, 255, 0.234);
+}
+
+html.dark .btn-linkedin {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+html.dark .btn-github {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+html.dark .section-divider {
+  background-color: rgba(255, 255, 255, 0.234) !important;
+}
+
+html.dark .project-card {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+html.dark .project-card:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+html.dark .project-description {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+html.dark .skills-li {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+html.dark .experience-description {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+html.dark .contact-description {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+html.dark .contact-form {
+  color: black !important;
+}
+
+html.dark .contact-input {
+  background-color: rgba(255, 255, 255, 0.8);
+  outline: none;
+}
+
+html.dark .contact-input:focus {
+  background-color: rgb(255, 255, 255) !important;
+  transition: all;
+}
+
+html.dark .contact-submit-btn {
+ background: rgba(255, 255, 255, 0.1);
 }
