@@ -27,9 +27,9 @@ export default function Contact() {
       <SectionHeading>{t("contactMe")}</SectionHeading>
 
       <p className="contact-description text-gray-700 -mt-6">
-        {t("reachOut")}{" "}   
+        {t("reachOut")}{" "}
         <a className="underline" href="mailto:hotuan850@gmail.com">
-          hotuan850@gmail.com 
+          hotuan850@gmail.com
         </a>{" "}
         {t("throughForm")}
       </p>
@@ -43,11 +43,11 @@ export default function Contact() {
             return;
           }
 
-          toast.success("Email sent successfully!");
+          toast.success(t("emailSuccess"));
         }}
       >
         <input
-          placeholder="Your email"
+          placeholder={t("yourEmail")}
           className="contact-input h-14 rounded-lg borderBlack px-4 bg-white"
           type="email"
           required
@@ -55,12 +55,13 @@ export default function Contact() {
           name="senderEmail"
         />
         <textarea
-          placeholder="Your message"
+          placeholder={t("yourMessage")}
           className="contact-input h-52 my-3 rounded-lg borderBlack p-4 bg-white"
           required
           maxLength={5000}
           name="message"
         />
+
         <SubmitButton />
       </form>
     </motion.section>

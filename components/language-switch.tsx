@@ -1,13 +1,15 @@
 "use client";
 
-import { useLanguage } from "@/context/language-context";
 import React from "react";
 import { Tooltip } from "react-tooltip";
+import { useLanguage } from "@/context/language-context";
 import { useTranslation } from "react-i18next";
+import useIsMobileOrTablet from "@/lib/tooltip";
 
 export default function LanguageSwitch() {
   const { language, toggleLanguage } = useLanguage();
   const { t } = useTranslation();
+  const isMobileOrTablet = useIsMobileOrTablet();
 
   return (
     <>
@@ -19,7 +21,9 @@ export default function LanguageSwitch() {
       >
         {language === "en" ? "🇻🇳" : "🇺🇸"}
       </button>
-      <Tooltip id="lang-tooltip" place="top" />
+      {!isMobileOrTablet && (
+        <Tooltip id="lang-tooltip" place="top" />
+      )}
     </>
   );
 }
