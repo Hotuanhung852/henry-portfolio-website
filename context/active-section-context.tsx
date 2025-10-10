@@ -21,7 +21,7 @@ const ActiveSectionContext = createContext<ActiveSectionContextType | null>(
 export default function ActiveSectionContextProvider({
   children,
 }: ActiveSectionContextProviderProps) {
-  const [activeSection, setActiveSection] = useState<SectionName>("Home");
+  const [activeSection, setActiveSection] = useState<SectionName>("home");
 
   const [timeOfLastClick, setTimeOfLastClick] = useState<number>(0); // to keep track of this to disable inView updates for a short time after a click
 
