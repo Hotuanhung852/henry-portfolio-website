@@ -56,7 +56,7 @@ const resources = {
       pawtimeDesc:"A web platform for pet care and adoption services, focused on transparency, comfort, and animal well-being.",
       sjcpTitle:"Seasonal Job Connection Platform",
       sjcpDesc:"The SJCP platform simplifies hiring for short-term, high-demand jobs using tech-driven solutions for busy seasons.",
-      quanghuyDesc:"A website for my father business, offering airfare pricing information, exciting tours, fast visa services, and a wide range of printing solutions.",
+      quanghuyDesc:"A website for my father's business, specializing in high-quality photocopy and printing services, with additional support for airfare pricing and exciting tour packages.",
       // Skills
       mySkills:"My Skills",
       // Experience
@@ -138,7 +138,7 @@ const resources = {
       pawtimeDesc:"Một nền tảng web dành cho dịch vụ chăm sóc và nhận nuôi thú cưng, tập trung vào sự minh bạch, thoải mái và phúc lợi động vật.",
       sjcpTitle:"Nền tảng kết nối việc làm thời vụ",
       sjcpDesc:"Nền tảng SJCP giúp đơn giản hóa việc tuyển dụng cho các công việc ngắn hạn, có nhu cầu cao bằng các giải pháp công nghệ trong mùa cao điểm.",
-      quanghuyDesc:"Một trang web cho doanh nghiệp cho cha mình, cung cấp vé thông tin giá vé máy bay, các tour du lịch hấp dẫn, dịch vụ làm visa nhanh chóng và nhiều giải pháp in ấn đa dạng.",
+      quanghuyDesc:"Một trang web dành cho doanh nghiệp của ba tôi, chuyên cung cấp dịch vụ photocopy và in ấn chất lượng cao, đồng thời hỗ trợ thông tin giá vé máy bay và các tour du lịch hấp dẫn.",
       // Skills
       mySkills:"Kỹ năng của tôi",
       // Experience
