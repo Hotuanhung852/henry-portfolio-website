@@ -86,6 +86,8 @@ const resources = {
       reachOut: "Please feel free to reach out to me via email at ",
       throughForm: "or through this form.",
       submitEmailbtn: "Submit",
+      yourEmail: "Your email here",
+      yourMessage: "Your message here",
       // Footer
       rightsReserved: "All rights reserved.",
       aboutWebsite: "About this website",
@@ -178,6 +180,9 @@ const resources = {
       reachOut: "Hãy thoải mái liên hệ với mình qua email tại ",
       throughForm: "hoặc thông qua biểu mẫu này.",
       submitEmailbtn: "Gửi ",
+      yourEmail: "Email của bạn",
+      yourMessage: "Tin nhắn của bạn",
+
       // Footer
       rightsReserved: "Đã đăng ký bản quyền.",
       aboutWebsite: "Về trang web này:",
